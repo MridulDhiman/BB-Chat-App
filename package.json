@@ -1,0 +1,22 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "author": "Mridul Dhiman",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "moment": "^2.29.4",
+    "mongoose": "^7.3.1",
+    "socket.io": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
