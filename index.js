@@ -13,7 +13,7 @@ const User = require("./models/user")
 // middleware to serve static files in nodejs : built-in express middleware
 app.use(express.static("public"));
 const mongoose = require("mongoose");
-//create mongoose connection motherfucker
+//create mongoose connection 
 mongoose.connect(process.env.CONNECTION_STRING);
 
 const db = mongoose.connection;
